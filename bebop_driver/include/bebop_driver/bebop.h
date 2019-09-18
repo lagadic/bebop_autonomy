@@ -168,6 +168,8 @@ public:
   void StopAutonomousFlight();
   void AnimationFlip(const uint8_t& anim_id);
 
+  void MoveBy(const double &dx, const double &dy, const double &dz, const double &dpsi);
+
   // -1..1
   void Move(const double& roll, const double& pitch, const double& gaz_speed, const double& yaw_speed);
   void MoveCamera(const double& tilt, const double& pan);
